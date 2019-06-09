@@ -1,6 +1,5 @@
----
-title: "Proposal to run a BoF on Notebooks at RDA Helsinki"
----
+# Proposal to run a BoF on Notebooks at RDA Helsinki"
+
 
 ## TL;DR 
 A proposal is being put together to run a BoF session on Notebooks (i.e. discussions on Jupyter and myBinder but if this is too narrow a scope please say so) at 
@@ -24,7 +23,7 @@ of such resources. It is important that initiatives such as EOSC become more
 aware of such initiatives at a policy level. 
 
 
-## Proposal 
+## Proposal logistics
 Details of how to apply for a BoF can found [here](https://www.rd-alliance.org/14th-plenary-bof-session-application-form). The application is itself relatively short though it's worth looking carefully at the criteria that are set. It's important to make sure it matches the RDA's mission and that it's not simply a set of talks but that there's room for discussion. 
 
 
