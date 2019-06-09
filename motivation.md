@@ -1,4 +1,4 @@
-# Proposal to run a BoF on Notebooks at RDA Helsinki"
+# Proposal to run a BoF on Notebooks at RDA Helsinki
 
 
 ## TL;DR 
