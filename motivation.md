@@ -19,7 +19,7 @@ Notebooks, specifically Jupyter notebooks (but also notebooks based on Rmarkdown
 More recently the deployment of sites such as [JupyterHub](https://jupyter.org/hub), [myBinder](https://gke.mybinder.org/) and [EGI notebooks](https://notebooks.egi.eu/hub/login) mean that notebooks can be deployed on a cloud and hence obviates 
 issues with installed libraries. One potential result of this is that it would represent the easiest pathway for users to use 
 cloud computing resources for research which could transform the use
-of such resources. It is important that initiatives such as EOSC become more
+of such resources. It is important that frameworks such as EOSC become more
 aware of such initiatives at a policy level. 
 
 
