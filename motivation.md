@@ -50,7 +50,12 @@ are nowhere near as developed as other IDE's but the first concerns are genuine.
 
 
 
-
+Interested parties
+Hugh Shanahan, Royal Holloway, University of London
+Martin Fenner, DataCite
+Tim Head, MyBinder, Project Jupyter
+Neil Hong, Software Sustainability Institute
+Rosie Higman, University of Manchester
 
 
 
