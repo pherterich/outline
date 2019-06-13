@@ -61,6 +61,8 @@ Neil Hong, Software Sustainability Institute
 
 Rosie Higman, University of Manchester
 
+Gergely Sipos, EGI
+
 
 
 
