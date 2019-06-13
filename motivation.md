@@ -63,6 +63,7 @@ Rosie Higman, University of Manchester
 
 Gergely Sipos, EGI
 
+Rob Quick, Indiana University
 
 
 
