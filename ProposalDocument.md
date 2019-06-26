@@ -39,11 +39,16 @@ __Additional links to informative material__
 
 A short motivation for this proposal can be found at 
 https://github.com/rdanotebooksbof/outline/blob/master/motivation.md
+
 The following are a set of relevant links 
-Introduction of Jupyter notebooks :- https://jupyter.org/about
-Introduction to Rstudio notebooks - https://bookdown.org/yihui/rmarkdown/notebook.html
-myBinder - https://gke.mybinder.org/
-EGI notebooks - https://notebooks.egi.eu/hub/login
+
+* Introduction of Jupyter notebooks :- https://jupyter.org/about
+
+* Introduction to Rstudio notebooks - https://bookdown.org/yihui/rmarkdown/notebook.html
+
+* myBinder - https://gke.mybinder.org/
+
+* EGI notebooks - https://notebooks.egi.eu/hub/login
 
 
 __Type of Meeting__
