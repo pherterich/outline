@@ -37,7 +37,18 @@ Given the profusion of notebooks it is clear that a system of enabling the citat
 represents an opportunity as the infrastructure behind notebooks is comparatively new and 
 hence potentially easily adapted to follow citations guidelines for 
 the [Force 11 software citation implementation group](https://www.force11.org/group/software-citation-implementation-working-group) and the [software source code Interest Group](https://rd-alliance.org/groups/software-source-code-ig) citation group
-in the RDA.
+in the RDA. How to provide DOI's easily for notebooks represents part of this challenge.
+
+
+### Integration of notebooks with data services.
+Notebooks have a very simple directory mechanism with all the files of interest being in the same folder as the notebook. As notebooks are used to access large data sets, there need to be mechanisms to either access specific data storage mechanisms 
+(such as the EGI data store) or to provide more general mechanisms for accessing data sets through PID's as an example.
+
+### Deploying notebooks on large Scientific computational platforms.
+Using notebooks on, for example, platforms with access to multiple CPU's presents more challenges. 
+
+### Long-term preservation
+At present long term storage of notebooks is carried out with repositories such as Zenodo. On the other hand there isn't a mechansim to ensure that the notebooks will continue to run in the long term. Solutions to solve this problem are essential.
 
 ### Influencing policy 
 The EGI already successfully deployed a notebook solution. Can the functionality of Binder be similarly deployed? How do notebooks fit into the 
@@ -57,13 +68,23 @@ Martin Fenner, DataCite
 
 Tim Head, MyBinder, Project Jupyter
 
-Neil Hong, Software Sustainability Institute
+Neil Chue Hong, Software Sustainability Institute
 
 Rosie Higman, University of Manchester
 
-Gergely Sipos, EGI
+Jez Cope, The British Library
+
+Patricia Heterich, University of Birmingham
+
+Gergely Sipos snd Enol Fernández, EGI
+
+Christine Kirkpatrick, National Data Service
 
 Rob Quick, Indiana University
+
+Brian Matthews, STFC 
+
+Frank Schluenzen, DESY
 
 
 
