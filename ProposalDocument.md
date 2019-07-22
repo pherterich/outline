@@ -22,7 +22,7 @@ This will be carried out with some relatively short introductions to the above t
 
 __Meeting agenda__
 1. A brief introduction to notebooks (5 minutes HS).
-2. Software citation, notebooks and individual DOI’s for notebooks. (5 Minutes Martin Fenner - member of software-source-code-identification WG ?)
+2. Software citation, notebooks and individual DOI’s for notebooks. (5 Minutes Martin Fenner - member of software source code identification WG ?)
 3. Integration of notebooks with data services. (5 Minutes Rob Quick?)
 4. Deploying notebooks on large Scientific computational platforms. (5 Minutes Gergely Sipos?)
 5. Long-term preservation. (5 Minutes Jez Cope?)
