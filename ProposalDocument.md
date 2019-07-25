@@ -16,7 +16,9 @@ Integration of notebooks with data sources (e.g. EGI DataHub or more abstractly 
 Deploying notebook services on large Scientific computational platforms. 
 Long-term preservation of notebooks without losing functionality.
 
-This will be carried out with some relatively short introductions to the above topics followed by break out groups on the above topics to consider what concrete steps can be made in this within the RDA, e.g. through the formation of an IG and/or WG’s. 
+This will be carried out with some relatively short introductions to the above topics followed by break out groups on the above topics to consider what concrete steps can be made in this within the RDA, e.g. through the formation of an IG and/or WG’s.
+
+Martin Fenner of the software source code identification WG has agreed to coordinate between the two groups.
 
 
 
