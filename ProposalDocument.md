@@ -27,7 +27,7 @@ __Meeting agenda__
 2. Software citation, notebooks and individual DOI’s for notebooks. (5 Minutes Martin Fenner - member of software source code identification WG)
 3. Integration of notebooks with data services. (5 Minutes Rob Quick)
 4. Deploying notebooks on large Scientific computational platforms. (5 Minutes Gergely Sipos)
-5. Long-term preservation. (5 Minutes Jez Cope)
+5. Long-term preservation. (5 Minutes Patricia Herterich)
 6. Break-out groups to discuss topics 2-5. (45 Minutes)
 7. Report back and consideration of next steps.(20 Minutes)
 
