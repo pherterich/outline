@@ -32,7 +32,7 @@ How could this be a fit with the RDA's activities? The first observation above i
 
 In terms of possible actions from an RDA group one idea would be to provide guidelines on how to build a notebook to make it reusable.  
 
-#Long-term preservation of notebooks
+# Long-term preservation of notebooks
 
 Patricia Herterich presented the case for the long term preservation of notebooks. Notebooks are increasingly cited in papers or listed as supplementary materials to published research. They seem to be becoming a primary research (and teaching) output especially in the context of reproducibl research. 
 
