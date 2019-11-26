@@ -1,6 +1,6 @@
 # Summary of BoF meeting at RDA Helsinki 23rd October 2019
 
-This BoF was set up to discuss computational notebooks (such as Jupyter Notebooks or Rstudio notebooks). The purpose of the meeting was to discuss a set of topics on notebooks where there is clear overlap with the activities of the RDA. There were a st of talks on the following topics :- 
+This BoF was set up to discuss computational notebooks (such as Jupyter Notebooks or Rstudio notebooks). The purpose of the meeting was to discuss a set of topics on notebooks where there is clear overlap with the activities of the RDA. There were a set of talks on the following topics :- 
 
 - [Publishing notebooks](https://t.co/ixYpYM1oA1)
 - [Long term preservation of notebooks](https://drive.google.com/file/d/1mziFSyxy2TPBorqgEvsRSXx-bpmcvsfx/view?usp=sharing)
@@ -17,7 +17,7 @@ The original notes from this meeting can be found [here](https://docs.google.com
 
 # Publishing notebooks
 
-The main points of Martin Fenner's talk were as follows :- 
+The main points of Martin Fenner's talk were as follows: 
 
 - How do you reference notebooks for specificity and/or credit (as per Software Citation Principles)?
 - How do you find notebooks you can reuse?
@@ -29,33 +29,38 @@ Practical solutions were
 2. Use CodeMeta metadata for basic metadata describing the notebook.
 3. Use CodeMeta metadata for linking to publication, datasets, funding, etc. 
 
-it was also noted that there already exist within the RDA cognate groups, namely the RDA Software Source Code IG
-
+it was also noted that related groups already exist within the RDA, namely the RDA Software Source Code IG 
 and the RDA/Force11 Software Source Code Identification WG. Finally, there is the work on the [PID graph that coud be utilised](https://doi.org/10.14454/3bpw-w381 ).
 
-In the discussion, the following initial observation was made.  *Notebooks are not just software or data or process.* It is a combination of the three and is a *Research Object*. This explains in part why notebooks have not been examined from this perspective as of yet. 
-Two overall themes were discussed. 
+In the discussion, the following initial observation was made:
+
+*Notebooks are not just software or data or process.* It is a combination of the three and is a *Research Object*. This explains in part why notebooks have not been examined from this perspective as of yet. 
+
+Two overall themes were discussed: 
 
 ## Why publish?
-There were three main noted reasons for publishing notenooks. These were
+There were three main noted reasons for publishing notebooks. These were
+
 1. Credit - in other words academic credit for writing a notebook and being able to start the process of tracking its use by it being a first class research object (i.e. something that should sit in a bibliography rather than hidden away as a footnote in a paper). It's interesting to note that this is not just in terms of academic credit but also as a mechanism to enable reuse of notebooks (F for Findable :^) ) for research and for teaching, which folds into the second point. 
-2. Understanding - notebooks provide a mechanism for explaining the software or workflows that have been implemented. A published notebook gives other researchers the means to understand how something was done computationally. This is related to, but distinct from reproducibility, where the focus is on reproducing the results. UNderstanding is perhaps more powerful - it enables researchers to go beyond what the first researcher has done. Likewise in explaining how the software works may even be more important than reusability.
+
+2. Understanding - notebooks provide a mechanism for explaining the software or workflows that have been implemented. A published notebook gives other researchers the means to understand how something was done computationally. This is related to, but distinct from reproducibility, where the focus is on reproducing the results. Understanding is perhaps more powerful - it enables researchers to go beyond what the first researcher has done. Likewise in explaining how the software works may even be more important than reusability.
+
 3. Preservation - keeping the notebooks themselves. There's an obvious connection with the preservation discussion here.
 
 Related to this, publication provides the possibility of access to *stable* notebooks and that the *same notebook* can be shared (rather than many slightly different versions). It was also noted that there needs to be a distinction between notebooks that are being updated in the development cycle (uploaded to a git/svn/mecurial/etc. resource on a daily basis); updates that correspond to major releases and releases that correspond to publications. 
 
 ## Connection with the RDA
-How could this be a fit with the RDA's activities? The first observation above is key here. Notebooks are important and yet fall through the cracks in terms of citation etc. There is already an IG on Virtual Resarch Environments. The data that is generated by a notebook is what makes a notebook interesting so there's a clear overlap there as well. The recommmendations that the RDA have made on publishing data, archiving data and metadata provide an excellent starting point for putting together guidelines on publishing notebooks as well the related IG and WG on Preserving Software.
+How could this fit with the RDA's activities? The first observation above is key here. Notebooks are important and yet fall through the cracks in terms of citation etc. There is already an IG on Virtual Resarch Environments. The data that is generated by a notebook is part of what makes a notebook interesting so there's a clear overlap there as well. The recommmendations that the RDA have made on publishing data and archiving data and metadata provide an excellent starting point for putting together guidelines on publishing notebooks as well the related IG and WG on Preserving Software.
 
-In terms of possible actions from an RDA group one idea would be to provide guidelines on how to build a notebook to make it reusable.  
+In terms of possible actions from an RDA group, one idea would be to provide guidelines on how to build a notebook to make it reusable.  
 
 # Long-term preservation of notebooks
 
-Patricia Herterich presented the case for the long term preservation of notebooks. Notebooks are increasingly cited in papers or listed as supplementary materials to published research. They seem to be becoming a primary research (and teaching) output especially in the context of reproducibl research. 
+Patricia Herterich presented the case for the long term preservation of notebooks. Notebooks are increasingly cited in papers or listed as supplementary materials to published research. They seem to be becoming a primary research (and teaching) output, especially in the context of reproducible research. 
 
-Their preservation present challenges namely :- they are complex objects; they have multiple dependencies (not all of which are obvious); they are hard to find as there's no central catalogue and linking to them varies; finally contrary to popular opinion they are hard to re-execute unless containerised. 
+Their preservation present challenges, namely: they are complex objects; they have multiple dependencies (not all of which are obvious); they are hard to find as there's no central catalogue and linking to them varies; finally, contrary to popular opinion, they are hard to re-execute unless containerised. 
 
-Preservation suggests three possible layers. At the simplest level is converting the notebook to a PDF or text file and hence storing it in the same way as other documents are stored. The next level is to allow a limited form of access using nbviewer and extracting any media files separately. Finally preserving fully actionable notebooks requires documentation of the OS; computational environment and libraries in, for example, a dockerfile. 
+Preservation suggests three possible layers. At the simplest level is converting the notebook to a PDF or text file and hence storing it in the same way as other documents are stored. The next level is to allow a limited form of access using ```nbviewer``` and extracting any media files separately. Finally preserving fully actionable notebooks requires documentation of the OS; computational environment and libraries in, for example, a dockerfile. 
 
 The discussion on this first focussed on gaps and opportunities.
 
@@ -63,17 +68,17 @@ The discussion on this first focussed on gaps and opportunities.
 
 Full preservation requires the preservation of the network of all the components which has comparisons with the art world. *Librarians typically want to aim for storage of an item for greater than ten years.* Preserving software beyond two years is hard - you can lose existing code components very quickly. If you have an executable it’s OK - but you need the right version for that. Dependencies degrade quickly - you need a great deal of context. 
 
-A number of technical questions were raised :- can dockerfiles be part of things like emulators and emulators for standard container images will address this? How much coverage would being able to form a standard AWS environment provide? How much science happens in non-standard environments? 
+A number of technical questions were raised: can dockerfiles be part of things like emulators and emulators for standard container images will address this? How much coverage would being able to form a standard AWS environment provide? How much science happens in non-standard environments? 
 
-Environments such as Binder are playing a key role but who will inherit Binder? Various initiatives at Harvard, Yale, wholetale, EGI - could one of those be involved? *This suggests possible collaboration.* 
+Environments such as Binder are playing a key role but who will inherit Binder? Various initiatives at Harvard, Yale, Whole Tale, EGI - could one of those be involved? *This suggests possible collaboration.* 
 
 ## Making decisions
 
-It became apparent that like in all preservation trade-off decisions have to be made. Does everything need to be preserved? What layer is appropriate? Should there be some decision making process to determine what to preserve? There is (as always) an archival processing cost - maintaining accessibility over time. One must look at the cost/benefit analysis over time. Different preservation actions may be appropriate at different stages. One could adopt a records management approach for this. 
+It became apparent that, like in all preservation, trade-off decisions have to be made. Does everything need to be preserved? What layer is appropriate? Should there be some decision making process to determine what to preserve? There is (as always) an archival processing cost - maintaining accessibility over time. One must look at the cost/benefit analysis over time. Different preservation actions may be appropriate at different stages. One could adopt a records management approach for this. 
 
 ## Solutions
 
-In terms of solutions is there a language (metadata) to describe different types of notebooks? e.g. distinguishing between simple notebooks that run a script and those that call datasets and so on (the Software Ontology may be a partial answer here). Can we create surrogates (video screenings? PDFs as documentation) to enhance the lowest layer of preservation? 
+In terms of solutions, is there a language (metadata) to describe different types of notebooks? e.g. distinguishing between simple notebooks that run a script and those that call datasets and so on (the Software Ontology may be a partial answer here). Can we create surrogates (video screenings? PDFs as documentation) to enhance the lowest layer of preservation? 
 
 ## Connection with the RDA
 
@@ -83,7 +88,7 @@ Opportunities through the RDA could  include the development of a terminology. T
 
 # Notebooks and FAIR digital objects
 
-Christine Kirkpatrick presented on the relationship between notebooks and FAIR standards. Notebooks do not have the FAIR principles built in. On the other hand, used properly Jupyter Notebooks can assist in aligning with FAIR. The discussion on the relationship between FAIR standards is ongoing but within the Digital Object Architecture application software is a Digital Object and hence “just another form of data”. It is not incorrect to replace the word 'data' with 'software' within the FAIR principles and be consistent in meaning. Specific items in FAIR have matches, namely :-
+Christine Kirkpatrick presented on the relationship between notebooks and FAIR standards. Notebooks do not have the FAIR principles built in. On the other hand, used properly Jupyter Notebooks can assist in aligning with FAIR. The discussion on the relationship between FAIR standards is ongoing but within the Digital Object Architecture application software is a Digital Object and hence “just another form of data”. It is not incorrect to replace the word 'data' with 'software' within the FAIR principles and be consistent in meaning [Note that there is disagreement with this opinion]. Specific items in FAIR have matches, namely:
 
 - F2 'Data are describd with rich metadata' - This is true for software too. 'Rich' is not a concrete term but notebooks allow 'rich' metadata to be included in its coding environment giving more semantic understanding of the data sources. While this does not directly impact findability, it can build trust in the code and data used.
 - F3 '(meta)data are registered or indexed in a searchable resource' - resources such as GitHub and versioning enable this. 
