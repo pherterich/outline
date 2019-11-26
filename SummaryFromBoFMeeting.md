@@ -15,7 +15,7 @@ With breakout groups for each topic afterwards. Each breakout group was asked to
 
 The original notes from this meeting can be found [here](https://docs.google.com/document/d/1ore_8jtw1SR-B6N6eBy0GUfkM1LkHIrUYO0m2SM3Svc/edit?usp=sharing).
 
-#Publishing notebooks
+# Publishing notebooks
 
 The main points of Martin Fenner's talk were as follows :- 
 
@@ -49,7 +49,7 @@ How could this be a fit with the RDA's activities? The first observation above i
 
 In terms of possible actions from an RDA group one idea would be to provide guidelines on how to build a notebook to make it reusable.  
 
-#Long-term preservation of notebooks
+# Long-term preservation of notebooks
 
 Patricia Herterich presented the case for the long term preservation of notebooks. Notebooks are increasingly cited in papers or listed as supplementary materials to published research. They seem to be becoming a primary research (and teaching) output especially in the context of reproducibl research. 
 
