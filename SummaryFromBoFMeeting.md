@@ -1,4 +1,21 @@
-# Publishing notebooks
+# Summary of BoF meeting at RDA Helsinki 23rd October 2019
+
+This BoF was set up to discuss computational notebooks (such as Jupyter Notebooks or Rstudio notebooks). The purpose of the meeting was to discuss a set of topics on notebooks where there is clear overlap with the activities of the RDA. There were a st of talks on the following topics :- 
+
+- [Publishing notebooks](https://t.co/ixYpYM1oA1)
+- [Long term preservation of notebooks](https://drive.google.com/file/d/1mziFSyxy2TPBorqgEvsRSXx-bpmcvsfx/view?usp=sharing)
+- [Notebooks and FAIR digital objects](https://drive.google.com/file/d/1mziFSyxy2TPBorqgEvsRSXx-bpmcvsfx/view?usp=sharing)
+- [Notebooks for Big data & compute](http://go.egi.eu/notebooks-rda) 
+
+With breakout groups for each topic afterwards. Each breakout group was asked to consider the following questions with respect to their topic.
+
+1. What are the gaps and opportunities? 
+2. What could this group (or the RDA community) do here that would be done better than elsewhere?
+3. What are the next steps? (More time to read and discuss? Reports to be written? Code to be developed?) 
+
+The original notes from this meeting can be found [here](https://docs.google.com/document/d/1ore_8jtw1SR-B6N6eBy0GUfkM1LkHIrUYO0m2SM3Svc/edit?usp=sharing).
+
+#Publishing notebooks
 
 The main points of Martin Fenner's talk were as follows :- 
 
@@ -32,7 +49,7 @@ How could this be a fit with the RDA's activities? The first observation above i
 
 In terms of possible actions from an RDA group one idea would be to provide guidelines on how to build a notebook to make it reusable.  
 
-# Long-term preservation of notebooks
+#Long-term preservation of notebooks
 
 Patricia Herterich presented the case for the long term preservation of notebooks. Notebooks are increasingly cited in papers or listed as supplementary materials to published research. They seem to be becoming a primary research (and teaching) output especially in the context of reproducibl research. 
 
