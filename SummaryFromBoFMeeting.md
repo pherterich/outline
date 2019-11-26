@@ -92,15 +92,15 @@ Christine Kirkpatrick presented on the relationship between notebooks and FAIR s
 
 - F2 'Data are describd with rich metadata' - This is true for software too. 'Rich' is not a concrete term but notebooks allow 'rich' metadata to be included in its coding environment giving more semantic understanding of the data sources. While this does not directly impact findability, it can build trust in the code and data used.
 - F3 '(meta)data are registered or indexed in a searchable resource' - resources such as GitHub and versioning enable this. 
-- A1 '(meta)data are retrievable by their identifier using a standardized communications protocol; A1.1 the protocol is open, free, and universally implementable; A1.2 the protocol allows for an authentication and authorization procedure, where necessary. ' - Platforms such as JupyterHub and MyBinder are examples of such a protocol. Python tools leveraging these protocols will need to be developed. This has not been done yet, however the ease of creating python modules should make this easily accomplishable with the most useful modules finding wider adoption.
+- A1 '(meta)data are retrievable by their identifier using a standardized communications protocol; A1.1 the protocol is open, free, and universally implementable; A1.2 the protocol allows for an authentication and authorization procedure, where necessary.' - Platforms such as JupyterHub and MyBinder are examples of such a protocol. Python tools leveraging these protocols will need to be developed. This has not been done yet, however the ease of creating python modules should make this easily accomplishable with the most useful modules finding wider adoption.
 
 
 - I1 '(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge
   representation' - Python itself can be seen as a “formal, accessible, shared, and broadly applicable language” which includes tools to captures metadata about the code.
 
-- I2 ''(meta)data use vocabularies that follow FAIR principles'; I3 (meta)data include qualified references to other (meta)data - These points go back to the additional documentation tools (F2 and F3) within a Notebook environment detailed documentation builds trust. Which in turns builds opportunities for interoperability of data and software.
+- I2 '(meta)data use vocabularies that follow FAIR principles'; I3 '(meta)data include qualified references to other (meta)data' - These points go back to the additional documentation tools (F2 and F3) within a Notebook environment detailed documentation builds trust. Which in turns builds opportunities for interoperability of data and software.
 
-- R1 'meta(data) have a plurality of accurate and relevant attributes.';  R1.1 ''(meta)data are released with a clear and accessible data usage license'; R1.2. '(meta)data are associated with their provenance'; R1.3. '(meta)data meet domain-relevant community standards' - Notebooks are generally designed for sharing and ease of reuse.
+- R1 'meta(data) have a plurality of accurate and relevant attributes.';  R1.1 '(meta)data are released with a clear and accessible data usage license'; R1.2. '(meta)data are associated with their provenance'; R1.3. '(meta)data meet domain-relevant community standards' - Notebooks are generally designed for sharing and ease of reuse.
 
   Software stored within open version management tools (aka GitHub-like environments) promote licensing
   and help keep a record of software provenance. They also provide community forum and contribution tools
@@ -108,15 +108,15 @@ Christine Kirkpatrick presented on the relationship between notebooks and FAIR s
 
 ## Questions
 
-In the discussion that followed a large number of questions were raised. How can notebooks be published? How can notebook sharing be made sexy so we see more reuse? How can the internals of a notebook (e.g. the JSON that describes the notebook) be described better? Could notebooks be used as a wrapper for data (after being placed in a container)? Can metadata for notebooks be standardised using domain-specific metadata standards? Can notebooks be metadata themselves? How can support for those who use notebooks be enabled? Can workflows in notebooks be made FAIR ? There already exist at least 10 separate ontologies for workflows and [resources on FAIR workflows](https://github.com/fair-workflows). [Provbook](https://github.com/Sheeba-Samuel/ProvBook) provides a mechanism through a Jupyter plugin to provide information for each cell in a notebook. Correspondingly can notebooks be used to document transformations of raw data to controlled data, including visualisations?
+In the discussion that followed, a large number of questions were raised. How can notebooks be published? How can notebook sharing be made sexy so we see more reuse? How can the internals of a notebook (e.g. the JSON that describes the notebook) be described better? Could notebooks be used as a wrapper for data (after being placed in a container)? Can metadata for notebooks be standardised using domain-specific metadata standards? Can notebooks be metadata themselves? How can support for those who use notebooks be enabled? Can workflows in notebooks be made FAIR ? There already exist at least 10 separate ontologies for workflows and [resources on FAIR workflows](https://github.com/fair-workflows). [Provbook](https://github.com/Sheeba-Samuel/ProvBook) provides a mechanism through a Jupyter plugin to provide information for each cell in a notebook. Correspondingly can notebooks be used to document transformations of raw data to controlled data, including visualisations?
 
 ## Gaps and challenges (chopportunities)
 
-Notebooks as a way to embed provenance and data transformation (e.g. ProvBook) but what happens if relevant plugin stops working? There are no clear definitions for making notebooks FAIR, e.g. no metrics or maturity indicators. A notebook is and is not software. It contains cells with codes, but is also a document. There are differences between communities on what the scope is for a notebook. There can a differences between the licensing for data in a notebook and the notebook. Notebooks could be a way to create FAIR workflows and improve machine testable/readiblity. Platforms are also going to evolve, e.g. Jupyter will be replacd by JupyterLab. Finally with respect to domains there are communities that do not use notebooks (e.g. linguistics) and those that face specfic challenges (e.g. climate studies that have to deal with large data sets). 
+Notebooks as a way to embed provenance and data transformation (e.g. ProvBook) but what happens if relevant plugin stops working? There are no clear definitions for making notebooks FAIR, e.g. no metrics or maturity indicators. A notebook is and is not software. It contains cells with codes, but is also a document. There are differences between communities on what the scope is for a notebook. There can a differences between the licensing for data in a notebook and the notebook. Notebooks could be a way to create FAIR workflows and improve machine testable/readiblity. Platforms are also going to evolve, e.g. Jupyter will be replaced by JupyterLab. Finally with respect to domains there are communities that do not use notebooks (e.g. linguistics) and those that face specfic challenges (e.g. climate studies that have to deal with large data sets). 
 
 ## RDA opportunities
 
-A working group could be set up to understand the implications differing data and notebook licences especially with respect to sharing notebooks (in collaboration with the WG on Data policies and research compendia). Other possible  tasks include determining the scope of notebooks and guidance on how to machine test notebooks for FAIR. In terms of different stakeholders there are a variety of different tasks. **Software providers** What would it mean for a notebook provider to be FAIR compliant?  Specificaly to give recommendations on how to make them FAIR. **IT/Research computing** Identifying best practices for institutional notebook hosting, course support/hosting, but also for research. **Users/Researchers**  Identifying best practices for including manual steps that not in a notebook, making notebooks FAIR, working with large datasets, batch computing. 
+A working group could be set up to understand the implications of differing data and notebook licences, especially with respect to sharing notebooks (in collaboration with the WG on Data policies and research compendia). Other possible  tasks include determining the scope of notebooks and guidance on how to machine test notebooks for FAIR. In terms of different stakeholders there are a variety of different tasks. **Software providers** What would it mean for a notebook provider to be FAIR compliant?  Specificaly to give recommendations on how to make them FAIR. **IT/Research computing** Identifying best practices for institutional notebook hosting, course support/hosting, but also for research. **Users/Researchers**  Identifying best practices for including manual steps that not in a notebook, making notebooks FAIR, working with large datasets, batch computing. 
 
 ## Next steps
 
@@ -124,26 +124,26 @@ Raise the profile of a [recent paper on FAIR Software](https://doi.org/10.3233/D
 
 - FAIR definitions/metrics/maturity indicators for notebooks.
 - Making notebooks FAIR and behaviors that engender FAIR.
-- Best practices (or ‘known good config’/this works) Institutional notebook hosting for courses and research
+- Best practices (or ‘known good config’/this works) on institutional notebook hosting for courses and research
 
 # Notebooks for Big Data & compute
-Gergely Sipos' talk discussed running notebooks on the EGI e-infrastructure. The initial questions there were how to provide Notebooks ‘as a service’ for international communities? How to scale Notebooks to big compute applications? How to handle big data I/O from Notebooks? How to support reproducible analysis with notebooks? 
+Gergely Sipos' talk discussed running notebooks on the EGI e-infrastructure. The initial questions were how to provide Notebooks ‘as a service’ for international communities? How to scale notebooks to big compute applications? How to handle big data I/O from notebooks? How to support reproducible analysis with notebooks? 
 
-Starting from JupyterHub, the goals are to provide scalable computing, scalable data access and enabling reproducibility through the provision of DOI's for notebooks and deploying notebooks and data using Binder. The architecture developed to do this was outlined. The next set of questions to be raised were :- 
+Starting from JupyterHub, the goals are to provide scalable computing, scalable data access and enabling reproducibility through the provision of DOIs for notebooks and deploying notebooks and data using Binder. The architecture developed to do this was outlined. The next set of questions to be raised were: 
 
-- How to provide scalable batch computing from Notebooks
+- How to provide scalable batch computing from notebooks
 - How can we ensure reproducibility from different JupyterHub installs
-- What are the communities best practices?
+- What are the community's best practices?
 
 ## Discussion
 
-The group was composed of about 15 people with ⅓ of already using Notebooks for ‘big compute’ and ⅔ are looking for examples/solutions to do this. One was  in both situations (how to help students move from local Notebook to big compute Notebooks). 
+The group was composed of about 15 people with ⅓ of already using notebooks for ‘big compute’ and ⅔ are looking for examples/solutions to do this. One was  in both situations (how to help students move from a local notebook to big compute notebooks). 
 
-An early question was how to handle big data from Notebooks? Gergely elaborated on how the EGI Notebooks does this (with a back-end data management system called DataHub). There was a recognised connection point with the Data repository interfaces BoF. As an action notebook use case(s) could be sent to that WG.
+An early question was how to handle big data from notebooks? Gergely elaborated on how the EGI notebooks does this (with a back-end data management system called DataHub). There was a recognised connection point with the data repository interfaces BoF. As an action, notebook use case(s) could be sent to that WG.
 
-Batch computing became a key topic of conversation. The EGI (and other cloud providers) started with interactive notebooks but now would like to add possibility of batch computing.On the other hand Supercomputers would like to do the opposite with Notebooks i.e. to use Notebooks to make access more interactive. This is a topic of common interest and there is a need for sharing good practices. Running long-running processes from notebooks will bring problems like time-out in browser, how to stay within ‘user quotas on the HPC/HTC site’, etc. It was raised why one should require batch computing - the response there is, much as any other platform, a user will want to scale up from test dataset to full dataset after the analytical code is working. Someone who can write a notebook may not be able to run batch jobs on large parameter space from command line, hence how can Notebooks simplify this task from an interactive environment? For example Condor (and a few other) libraries exist to do batch computing from Notebook  There is a need to report back on this. An equivalent issue is running many notebooks, each requiring small capacity alone, but together can be a challenge. Examples of scaling up a Notebook from a local environment to a big compute machine are required. Do we have/can we have training for users? (the content depends on how the provider actually implements the scalability in its Notebook server).
+Batch computing became a key topic of conversation. The EGI (and other cloud providers) started with interactive notebooks but now would like to add the possibility of batch computing. On the other hand, supercomputers would like to do the opposite with notebooks, i.e. to use notebooks to make access more interactive. This is a topic of common interest and there is a need for sharing good practices. Running long-running processes from notebooks will bring problems like time-outs in a browser, how to stay within ‘user quotas on the HPC/HTC site’, etc. It was raised why one should require batch computing - the response there is, much as any other platform, a user will want to scale up from test dataset to full dataset after the analytical code is working. Someone who can write a notebook may not be able to run batch jobs on large parameter space from command line, hence how can notebooks simplify this task from an interactive environment? For example Condor (and a few other) libraries exist to do batch computing from notebook  There is a need to report back on this. An equivalent issue is running many notebooks, each requiring small capacity alone, but together can be a challenge. Examples of scaling up a notebook from a local environment to a big compute machine are required. Do we have/can we have training for users? (the content depends on how the provider actually implements the scalability in its notebook server).
 
-The portability of Notebooks across servers was also raised and action identified was finding metadata about Notebooks, for example how much does Binder requirements.txt offer in this respect, and what more do we need?
+The portability of motebooks across servers was also raised and action identified was finding metadata about notebooks, for example how much does Binder requirements.txt offer in this respect, and what more do we need?
 
 
 
@@ -154,9 +154,9 @@ Certain themes emerge from these discussions.
 - Notebooks are *research objects*. Not software and not data. Lessons can be drawn from both communities but may not hold entirely.
 - Notebooks are mostly about making data analysis understandable. It's not automatically about reproducibility.
 - There is a need for various pieces of guidance and/or metadata standards on all of the above discussion topics. 
-- The configurability of Jupyter notebook extensions imply that it can be used in a huge number of contexts (e.g. HPC). The question of scope raises its head - are there agreed situations where notebooks are inappropriate?
-- Different communities use notebooks in different ways (large data sets and high throughput computing; Supercomputing; large image or video sets embedded in) and hence thr may be a varietry of different answers. 
-- There are clear overlaps with different IG and WG's within the RDA and hence this represents a good location to discuss these issues. 
+- The configurability of Jupyter notebook extensions imply that they can be used in a huge number of contexts (e.g. HPC). The question of scope raises its head - are there agreed situations where notebooks are inappropriate?
+- Different communities use notebooks in different ways (large data sets and high throughput computing; supercomputing; large image or video sets embedded in) and hence there may be a varietry of different answers. 
+- There are clear overlaps with different IG and WGs within the RDA and hence this represents a good location to discuss these issues. 
 
 
 
