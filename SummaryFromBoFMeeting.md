@@ -1,6 +1,6 @@
 # Summary of BoF meeting at RDA Helsinki 23rd October 2019
 
-This BoF was set up to discuss computational notebooks (such as Jupyter Notebooks or Rstudio notebooks). The purpose of the meeting was to discuss a set of topics on notebooks where there is clear overlap with the activities of the RDA. There were a set of talks on the following topics :- 
+This BoF was set up to discuss computational notebooks (such as Jupyter Notebooks or Rstudio notebooks). The purpose of the meeting was to discuss a set of topics on notebooks where there is clear overlap with the activities of the RDA. There were a set of talks on the following topics : 
 
 - [Publishing notebooks](https://t.co/ixYpYM1oA1)
 - [Long term preservation of notebooks](https://drive.google.com/file/d/1mziFSyxy2TPBorqgEvsRSXx-bpmcvsfx/view?usp=sharing)
@@ -29,7 +29,7 @@ Practical solutions were
 2. Use CodeMeta metadata for basic metadata describing the notebook.
 3. Use CodeMeta metadata for linking to publication, datasets, funding, etc. 
 
-it was also noted that related groups already exist within the RDA, namely the RDA Software Source Code IG 
+It was also noted that related groups already exist within the RDA, namely the RDA Software Source Code IG 
 and the RDA/Force11 Software Source Code Identification WG. Finally, there is the work on the [PID graph that coud be utilised](https://doi.org/10.14454/3bpw-w381 ).
 
 In the discussion, the following initial observation was made:
@@ -70,7 +70,7 @@ Full preservation requires the preservation of the network of all the components
 
 A number of technical questions were raised: can dockerfiles be part of things like emulators and emulators for standard container images will address this? How much coverage would being able to form a standard AWS environment provide? How much science happens in non-standard environments? 
 
-Environments such as Binder are playing a key role but who will inherit Binder? Various initiatives at Harvard, Yale, Whole Tale, EGI - could one of those be involved? *This suggests possible collaboration.* 
+Environments such as [Binder](https://mybinder.org/) are playing a key role but who will inherit Binder? Various initiatives at Harvard, Yale, Whole Tale, EGI - could one of those be involved? *This suggests possible collaboration.* 
 
 ## Making decisions
 
@@ -90,9 +90,9 @@ Opportunities through the RDA could  include the development of a terminology. T
 
 Christine Kirkpatrick presented on the relationship between notebooks and FAIR standards. Notebooks do not have the FAIR principles built in. On the other hand, used properly Jupyter Notebooks can assist in aligning with FAIR. The discussion on the relationship between FAIR standards is ongoing but within the Digital Object Architecture application software is a Digital Object and hence “just another form of data”. It is not incorrect to replace the word 'data' with 'software' within the FAIR principles and be consistent in meaning [Note that there is disagreement with this opinion]. Specific items in FAIR have matches, namely:
 
-- F2 'Data are describd with rich metadata' - This is true for software too. 'Rich' is not a concrete term but notebooks allow 'rich' metadata to be included in its coding environment giving more semantic understanding of the data sources. While this does not directly impact findability, it can build trust in the code and data used.
+- F2 'Data are described with rich metadata' - This is true for software too. 'Rich' is not a concrete term but notebooks allow 'rich' metadata to be included in its coding environment giving more semantic understanding of the data sources. While this does not directly impact findability, it can build trust in the code and data used.
 - F3 '(meta)data are registered or indexed in a searchable resource' - resources such as GitHub and versioning enable this. 
-- A1 '(meta)data are retrievable by their identifier using a standardized communications protocol; A1.1 the protocol is open, free, and universally implementable; A1.2 the protocol allows for an authentication and authorization procedure, where necessary.' - Platforms such as JupyterHub and MyBinder are examples of such a protocol. Python tools leveraging these protocols will need to be developed. This has not been done yet, however the ease of creating python modules should make this easily accomplishable with the most useful modules finding wider adoption.
+- A1 '(meta)data are retrievable by their identifier using a standardized communications protocol; A1.1 the protocol is open, free, and universally implementable; A1.2 the protocol allows for an authentication and authorization procedure, where necessary.' - Platforms such as JupyterHub and Binder are examples of such a protocol. Python tools leveraging these protocols will need to be developed. This has not been done yet, however the ease of creating python modules should make this easily accomplishable with the most useful modules finding wider adoption.
 
 
 - I1 '(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge
@@ -116,7 +116,10 @@ Notebooks as a way to embed provenance and data transformation (e.g. ProvBook) b
 
 ## RDA opportunities
 
-A working group could be set up to understand the implications of differing data and notebook licences, especially with respect to sharing notebooks (in collaboration with the WG on Data policies and research compendia). Other possible  tasks include determining the scope of notebooks and guidance on how to machine test notebooks for FAIR. In terms of different stakeholders there are a variety of different tasks. **Software providers** What would it mean for a notebook provider to be FAIR compliant?  Specificaly to give recommendations on how to make them FAIR. **IT/Research computing** Identifying best practices for institutional notebook hosting, course support/hosting, but also for research. **Users/Researchers**  Identifying best practices for including manual steps that not in a notebook, making notebooks FAIR, working with large datasets, batch computing. 
+A working group could be set up to understand the implications of differing data and notebook licences, especially with respect to sharing notebooks (in collaboration with the WG on Data policies and research compendia). Other possible  tasks include determining the scope of notebooks and guidance on how to machine test notebooks for FAIR. In terms of different stakeholders there are a variety of different tasks. 
+- **Software providers** What would it mean for a notebook provider to be FAIR compliant?  Specificaly to give recommendations on how to make them FAIR. 
+- **IT/Research computing** Identifying best practices for institutional notebook hosting, course support/hosting, but also for research. 
+- **Users/Researchers**  Identifying best practices for including manual steps that not in a notebook, making notebooks FAIR, working with large datasets, batch computing. 
 
 ## Next steps
 
@@ -124,15 +127,15 @@ Raise the profile of a [recent paper on FAIR Software](https://doi.org/10.3233/D
 
 - FAIR definitions/metrics/maturity indicators for notebooks.
 - Making notebooks FAIR and behaviors that engender FAIR.
-- Best practices (or ‘known good config’/this works) on institutional notebook hosting for courses and research
+- Best practices (or ‘known good config’/this works) on institutional notebook hosting for courses and research.
 
 # Notebooks for Big Data & compute
 Gergely Sipos' talk discussed running notebooks on the EGI e-infrastructure. The initial questions were how to provide Notebooks ‘as a service’ for international communities? How to scale notebooks to big compute applications? How to handle big data I/O from notebooks? How to support reproducible analysis with notebooks? 
 
 Starting from JupyterHub, the goals are to provide scalable computing, scalable data access and enabling reproducibility through the provision of DOIs for notebooks and deploying notebooks and data using Binder. The architecture developed to do this was outlined. The next set of questions to be raised were: 
 
-- How to provide scalable batch computing from notebooks
-- How can we ensure reproducibility from different JupyterHub installs
+- How to provide scalable batch computing from notebooks?
+- How can we ensure reproducibility from different JupyterHub installs?
 - What are the community's best practices?
 
 ## Discussion
@@ -143,7 +146,7 @@ An early question was how to handle big data from notebooks? Gergely elaborated 
 
 Batch computing became a key topic of conversation. The EGI (and other cloud providers) started with interactive notebooks but now would like to add the possibility of batch computing. On the other hand, supercomputers would like to do the opposite with notebooks, i.e. to use notebooks to make access more interactive. This is a topic of common interest and there is a need for sharing good practices. Running long-running processes from notebooks will bring problems like time-outs in a browser, how to stay within ‘user quotas on the HPC/HTC site’, etc. It was raised why one should require batch computing - the response there is, much as any other platform, a user will want to scale up from test dataset to full dataset after the analytical code is working. Someone who can write a notebook may not be able to run batch jobs on large parameter space from command line, hence how can notebooks simplify this task from an interactive environment? For example Condor (and a few other) libraries exist to do batch computing from notebook  There is a need to report back on this. An equivalent issue is running many notebooks, each requiring small capacity alone, but together can be a challenge. Examples of scaling up a notebook from a local environment to a big compute machine are required. Do we have/can we have training for users? (the content depends on how the provider actually implements the scalability in its notebook server).
 
-The portability of motebooks across servers was also raised and action identified was finding metadata about notebooks, for example how much does Binder requirements.txt offer in this respect, and what more do we need?
+The portability of motebooks across servers was also raised and action identified was finding metadata about notebooks, for example how much does Binder ```requirements.txt``` offer in this respect, and what more do we need?
 
 
 
